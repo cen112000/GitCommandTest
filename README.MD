@@ -21,4 +21,8 @@
     git commit -am 'dfsdf' 相当于 git add . git commit -m ''
 8 恢复被删除的文件 
     git checkout -- file 不能操作暂存区里的文件
-    git reset HEAD file 不在追踪暂存区文件
+    git reset HEAD file 不在追踪暂存区文件 然后再使用git checkout -- file 恢复内容
+9 版本回退
+    git reset --hard 哈希值 回退到指定版本，但该版本之后的所有操作将不再保留
+10 回退到旧版本 git log 拿到版本号hash，git checkout hash -- file , git commit -m '' 
+
