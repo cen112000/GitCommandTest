@@ -11,4 +11,5 @@
 3 查看修改 git diff 
 4 删除文件
     在本地删除文件
-    git add 
+    git add 被删除的文件民
+    git commit -m 'message'
