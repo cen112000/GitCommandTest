@@ -13,3 +13,7 @@
     在本地删除文件
     git add 被删除的文件民
     git commit -m 'message'
+5 重命名文件
+    git mv 文件1 文件2 将文件1重命名为文件2
+6 移动文件到文件夹
+    git mv 文件 路径/可选名字 例如: git mv about.txt file/
