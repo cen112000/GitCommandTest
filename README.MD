@@ -48,4 +48,9 @@
         删除未合并的分支
             git branch --no-merged | egrep -v "(^\*|master|dev)" | xargs git branch -D
 
+        删除远端分支 git push -u gm --delete 远端分支名
 
+        仓库迁移 git push all
+
+        git clone --no-checkout 远端地址
+        
