@@ -37,6 +37,10 @@
         删除分支再恢复原来的分支 git branck 原来分支民 hash值（删除分支时的hash值）
         分支合并 git merge 
         合并冲突，解决后，git add . ,git commit 不带-m。
-        
+
+        添加版本线图 git log --oneline --graph
+        不添加快转合并 git merge 分支名 --no-ff
+        git merge 分支名 --no-ff --no-commit 不提交合并
+        恢复到合并之前 git reset --hard ORIG_HARD
         
 
