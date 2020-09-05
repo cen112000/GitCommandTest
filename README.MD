@@ -20,4 +20,5 @@
 7 快速提交
     git commit -am 'dfsdf' 相当于 git add . git commit -m ''
 8 恢复被删除的文件 
-    git checkout -- file 
+    git checkout -- file 不能操作暂存区里的文件
+    git reset HEAD file 不在追踪暂存区文件
