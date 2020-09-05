@@ -29,7 +29,7 @@
         git连接远程仓库 git remote add gm(任意名) 远程仓库地址
         git push -u gm master 推送到远程仓库master分支
 
-        查看分支 git branch 。
+        查看分支 git branch 。git branch -a ,git branch -r 。
         切换分支 git checkout 分支名 。
         创建分支 git branch 分支名。
         快速创建，切换分支 git checkout -b 分支名。
@@ -43,4 +43,9 @@
         git merge 分支名 --no-ff --no-commit 不提交合并
         恢复到合并之前 git reset --hard ORIG_HARD
         
+        删除已经合并的分支
+            git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -D
+        删除未合并的分支
+            git branch --no-merged | egrep -v "(^\*|master|dev)" | xargs git branch -D
+
 
