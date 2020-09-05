@@ -17,3 +17,5 @@
     git mv 文件1 文件2 将文件1重命名为文件2
 6 移动文件到文件夹
     git mv 文件 路径/可选名字 例如: git mv about.txt file/
+7 快速提交
+    git commit -am 'dfsdf' 相当于 git add . git commit -m ''
