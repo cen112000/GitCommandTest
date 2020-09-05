@@ -25,5 +25,7 @@
         9 版本回退
             git reset --hard 哈希值 回退到指定版本，但该版本之后的所有操作将不再保留
         10 回退到旧版本 git log 拿到版本号hash，git checkout hash -- file , git commit -m '' 
-        
 
+        git连接远程仓库 git remote add gm(任意名) 远程仓库地址
+        git push -u gm master 推送到远程仓库master分支
+        
