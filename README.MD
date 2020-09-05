@@ -53,4 +53,5 @@
         仓库迁移 git push all
 
         git clone --no-checkout 远端地址
-        
+
+        生成秘钥  ssh-keygen -t rsa -C 描述 -f 文件名
