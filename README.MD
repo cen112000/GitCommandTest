@@ -28,4 +28,10 @@
 
         git连接远程仓库 git remote add gm(任意名) 远程仓库地址
         git push -u gm master 推送到远程仓库master分支
-        
+
+        查看分支 git branch 。
+        切换分支 git checkout 分支名 。
+        创建分支 git branch 分支名。
+        快速创建，切换分支 git checkout -b 分支名。
+        删除分支 git branch -d（/D强制删除） 分支名。
+
