@@ -2,27 +2,28 @@
  	git config --global user.email "" 
 	git config --list 
 	
-2 git status命令
-	git add test.txt 添加文件
-	git rm --cached test.txt 删除暂存区文件
-	git commit -m 'first commit' 
-	git log 查看提交历史
+        2 git status命令
+            git add test.txt 添加文件
+            git rm --cached test.txt 删除暂存区文件
+            git commit -m 'first commit' 
+            git log 查看提交历史
 
-3 查看修改 git diff 
-4 删除文件
-    在本地删除文件
-    git add 被删除的文件民
-    git commit -m 'message'
-5 重命名文件
-    git mv 文件1 文件2 将文件1重命名为文件2
-6 移动文件到文件夹
-    git mv 文件 路径/可选名字 例如: git mv about.txt file/
-7 快速提交
-    git commit -am 'dfsdf' 相当于 git add . git commit -m ''
-8 恢复被删除的文件 
-    git checkout -- file 不能操作暂存区里的文件
-    git reset HEAD file 不在追踪暂存区文件 然后再使用git checkout -- file 恢复内容
-9 版本回退
-    git reset --hard 哈希值 回退到指定版本，但该版本之后的所有操作将不再保留
-10 回退到旧版本 git log 拿到版本号hash，git checkout hash -- file , git commit -m '' 
+        3 查看修改 git diff 
+        4 删除文件
+            在本地删除文件
+            git add 被删除的文件民
+            git commit -m 'message'
+        5 重命名文件
+            git mv 文件1 文件2 将文件1重命名为文件2
+        6 移动文件到文件夹
+            git mv 文件 路径/可选名字 例如: git mv about.txt file/
+        7 快速提交
+            git commit -am 'dfsdf' 相当于 git add . git commit -m ''
+        8 恢复被删除的文件 
+            git checkout -- file 不能操作暂存区里的文件
+            git reset HEAD file 不在追踪暂存区文件 然后再使用git checkout -- file 恢复内容
+        9 版本回退
+            git reset --hard 哈希值 回退到指定版本，但该版本之后的所有操作将不再保留
+        10 回退到旧版本 git log 拿到版本号hash，git checkout hash -- file , git commit -m '' 
+        
 
